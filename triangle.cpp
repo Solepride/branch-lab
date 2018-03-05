@@ -1,7 +1,7 @@
 #include <iostream>
 #include "doctest.h"
 
-#include "shapes.h"
+#include "triangle.h"
 
 
 using std::string;
@@ -17,7 +17,7 @@ string box(int width, int height){
   return s;
 }
 
-TEST_CASE("Testing Box"){
+TEST_CASE("Testing Triangle"){
   string s = box(4,3);
   CHECK(s=="****\n****\n****\n");
 }
