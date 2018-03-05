@@ -1,5 +1,5 @@
-#ifndef TRIANGLES_H
-#define TRIANGLES_H
+#ifndef SHAPES_H
+#define SHAPES_H
 
 #include <iostream>
 using std::string;
